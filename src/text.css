@@ -1,6 +1,27 @@
-h1{
-    color: green;
+body{
+    margin: 0;
 }
-p{
-    color: red;
+
+#header{
+    background-color: lavender;
+    height: 100px;
+    width: 100%;
+}
+#main{
+    background-color: red;
+    height: 1000px;
+    width: 70% ;
+    float: left;
+}
+#t{
+    background-color: yellow;
+    height: 1000px;
+    width: 30%;
+    float: left;
+}
+#u{
+    background-color: green;
+    height: 100px;
+    width: 100%;
+    clear: both;
 }
